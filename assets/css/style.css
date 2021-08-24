@@ -78,7 +78,7 @@ body{
 }
 
 body.dark-theme{
-    --hue-color2:359;
+    --hue-color2:119;
     --first-color: hsl(var(--hue-color2), 92%, 62%);
     --first-color-second: hsl(var(--hue-color2), 30%, 8%);
     --first-color-alt: hsl(var(--hue-color2), 60%, 30%);
