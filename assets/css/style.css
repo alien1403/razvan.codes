@@ -678,9 +678,9 @@ img{
 }
 
 .portfolio__img{
-    width: 280px;
-    border-radius: .5rem;
-    justify-self: center;
+    width: 265px;
+    border-radius: 1rem;
+    justify-content: center;
 }
 
 .portfolio__title{
@@ -695,4 +695,3 @@ img{
 .portfolio__button:hover .button__icon{
     transform: translateX(.25rem);
 }
-
