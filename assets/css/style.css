@@ -78,7 +78,7 @@ body{
 }
 
 body.dark-theme{
-    --hue-color2:126;
+    --hue-color2:100;
     --first-color: hsl(var(--hue-color2), 92%, 62%);
     --first-color-second: hsl(var(--hue-color2), 30%, 8%);
     --first-color-alt: hsl(var(--hue-color2), 60%, 30%);
@@ -88,7 +88,7 @@ body.dark-theme{
     --text-color:hsl(var(--hue-color2), 8%, 75%);
     --text-color-light:hsl(var(--hue-color2), 8%, 65%);
     --input-color:hsl(var(--hue-color2), 85%, 96%);
-    --body-color:hsl(var(--hue-color), 28%, 12%);
+    --body-color:hsl(var(--hue-color), 20%, 10%);
     --container-color: hsl(var(--hue-color2), 29%, 16%);
 }
 
@@ -214,6 +214,7 @@ img{
 
 .nav__icon{
     font-size: 1.2rem;
+    color: #fff;
 }
 
 .nav__close{
