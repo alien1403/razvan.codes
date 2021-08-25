@@ -704,6 +704,7 @@
                 </div>
             </section>
 
+
             <!--CONTACT-->
             <section class="contact section" id="contact">
                 <h2 class="section__title">Contact Me</h2>
@@ -741,31 +742,34 @@
                         </div>
                     </div>
 
-                    <form   action="https://formspree.io/f/mqkwgvpp" method="POST" class="contact__form grid">
-                        <div class="contact__inputs grid">
-                            <div class="contact__content">
-                                <label for="" class="contact__label">Name</label>
-                                <input type="text" class="contact__input" name="_name">
+                    <div class="contactform">
+
+                        <form  id="contact-form" action="" method="POST" class="contact__form grid">
+                            <div class="contact__inputs grid">
+                                <div class="contact__content">
+                                    <label for="" class="contact__label">Name</label>
+                                    <input type="text" class="contact__input" name="name" required>
+                                </div>
+
+                                <div class="contact__content">
+                                    <label for="" class="contact__label">Email</label>
+                                    <input type="text" class="contact__input" name="email" required>
+                                </div>
                             </div>
 
-                            <div class="contact__content">
-                                <label for="" class="contact__label">Email</label>
-                                <input type="text" class="contact__input" name="_replyto">
+                                <div class="contact__content">
+                                    <label for="" class="contact__label">Message</label>
+                                    <textarea name="message" id="" cols="0" rows="7" required class="contact__input"></textarea>
+                                </div>
+                            
+                            <div>
+                                <button href="#" class="button button--flex" type="submit">
+                                    Send Message
+                                    <i class="uil uil-message button__icon"></i>
+                                </button>
                             </div>
-                        </div>
-
-                            <div class="contact__content">
-                                <label for="" class="contact__label">Message</label>
-                                <textarea name="message" id="" cols="0" rows="7" class="contact__input"></textarea>
-                            </div>
-                        
-                        <div>
-                            <button class="button button--flex" type="submit">
-                                Send Message
-                                <i class="uil uil-message button__icon"></i>
-                            </button>
-                        </div>
-                    </form>
+                        </form>
+                    </div>
                 </div>
             </section>
         </main>
