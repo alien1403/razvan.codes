@@ -1240,6 +1240,11 @@ img{
         width: 460px;
     }
 
+    .nav__list .nav__item{
+       padding: 1.5rem;
+
+    }
+
     .contact__inputs{
         grid-template-columns: repeat(2, 1fr);
     }
