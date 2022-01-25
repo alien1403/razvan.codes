@@ -177,6 +177,14 @@ img{
     align-items: center;
 }
 
+.nav__logo{
+    width: var(--header-height);
+    height: var(--header-height);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .nav__logo,
 .nav__toggle{
     color: var(--nav-logo);
